@@ -109,16 +109,15 @@ import 'quickcss/lib/main.css';
 | f-c -sb --c  | flex-direction: row; justify-content: space-between; align-items: center;
 
 ### 5. 颜色
-用于控制元素的文字颜色（color），背景颜色（background-color）和边框颜色（border-color）的功能类。这里颜色使用了qingcloud的portal-ui颜色库。
+用于控制元素的文字颜色（color），背景颜色（background-color）和边框颜色（border-color）的功能类。详细的颜色色系，色值及颜色变量可查看[颜色库](./color.md)。
 
 #### 格式
 * c-x： 文本颜色
 * bgc-x: 背景颜色
 * bc-x: 边框颜色
 
-<span style="color: #d9615f">
-注：这里x为portal-ui色系值，通过在chrome中使用figma color for qingcloud portal插件，能够在figma网页版设计稿中显示颜色色值对应的portal-ui定义的颜色变量（只看显示的第一个变量），然后根据所对应的色系和色值来定x，例如，#324558对应的$neutral-15，色系为n（neutral），色值为15，那么x=n15
-</b>
+
+注：这里x为颜色库中的色系值.为方便使用颜色css，这里可以通过在chrome中使用[chrome-figma-color插件](./chrome-figma-quick-css-color.zip)，能够在figma网页版设计稿中显示颜色色值对应的颜色变量（只看显示的第一个变量），然后会根据所对应的色系和色值来定x，例如，#324558对应的$neutral-15，色系为n（neutral），色值为15，那么x=n15，class即可以写成c-n15。
 
 如下示例：
 
@@ -141,7 +140,7 @@ import 'quickcss/lib/main.css';
 #### 格式
 * br-x： 边框半径
 * bw-x: 边框厚度
-* b-x: 特殊边框 
+* b-x: 特殊边框
 
 如下示例：
 

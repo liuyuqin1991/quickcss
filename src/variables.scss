@@ -112,6 +112,8 @@ $blue-3: #b8def9;
 $blue-2: #cde8fb;
 $blue-1: #e2f2fd;
 $blue-0: #f7fcff;
+$blue-99: #0366d6;
+$blue-98: #035cc1;
 
 // dark-green
 $dark-green-20: #0e221e;
@@ -216,6 +218,7 @@ $help1: $neutral-13;
 $help2: $neutral-8;
 $icon-dark-fill: $neutral-5;
 $border-color: $neutral-3;
+$light-border-color: $neutral-2;
 $body-background: $neutral-2;
 $light-background: $neutral-1;
 $white: $neutral-0;
@@ -224,27 +227,30 @@ $primary-active: $green-13;
 $primary-hover: $green-12;
 $primary: $green-11;
 $primary-background: $green-0;
-
-$border-color: $neutral-3;
-$light-border-color: $neutral-2;
-
+$primary-border: $green-11;
 $success-active: $green-13;
 $success-hover: $green-12;
 $success: $green-11;
+$success-border: $green-11;
 $success-background: $green-0;
+
 
 $danger-active: $red-14;
 $danger-hover: $red-11;
 $danger: $red-10;
+$danger-border: $red-10;
 $danger-background: $red-0;
 
 $warning-active: $yellow-14;
 $warning-hover: $yellow-11;
 $warning: $yellow-10;
-$warning-border: $yellow-7;
+$warning-border: $yellow-10;
 $warning-background: $yellow-0;
 
 $info-active: $blue-13;
 $info-hover: $blue-12;
 $info: $blue-11;
+$info-border: $blue-11;
 $info-background: $blue-0;
+$link: $blue-99;
+$link-hover: $blue-98;
