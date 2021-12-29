@@ -41,9 +41,8 @@
 |  G15  | $green-15  | ![#0d6649](https://via.placeholder.com/15/0d6649/000000?text=+) #0d6649  |  |
 |  G14  | $green-14  | ![#0f7654](https://via.placeholder.com/15/0f7654/000000?text=+) #0f7654  |  |
 |  G13  | $green-13  | ![#11865f](https://via.placeholder.com/15/11865f/000000?text=+) #11865f  | $primary-active, $success-active |
-|  G12  | $green-12  | ![#13966a](https://via.placeholder.com/15/13966a/000000?text=+) #13966a  |  $primary-hover, $success-hover |
-|  G11  | $green-11  | ![#15a675](https://via.placeholder.com/15/15a675/000000?text=+) #15a675  |  
-$primary, $success, $primary-border, $success-border|
+|  G12  | $green-12  | ![#13966a](https://via.placeholder.com/15/13966a/000000?text=+) #13966a  | $primary-hover, $success-hover |
+|  G11  | $green-11  | ![#15a675](https://via.placeholder.com/15/15a675/000000?text=+) #15a675  | $primary, $success, $primary-border, $success-border|
 |  G10  | $green-10  | ![#18b27f](https://via.placeholder.com/15/18b27f/000000?text=+) #18b27f  |  |
 |  G9  | $green-9  | ![#2fb788](https://via.placeholder.com/15/2fb788/000000?text=+) #2fb788  |  | 
 |  G8  | $green-8  | ![#45bf95](https://via.placeholder.com/15/45bf95/000000?text=+) #45bf95  |  |
