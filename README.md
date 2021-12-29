@@ -1,7 +1,7 @@
 # quickcss
 quickcss是一个能提高开发效率的轻量级原子化CSS库，能够在开发中快速使用css中使用最为频繁的部分属性，解决了为一些简单样式的dom命名class想破头，写传统css繁而多的痛点。而与同为原子化css库的TailwindCSS相比，不需要记忆过多的另一套CSS语法糖，也没有抛弃scss等非常好用的预编译css扩展语言在伪类，选择器，模块化，变量等方面编写CSS的优势，quickcss本身也是用scss编写后编译成的css
 
-![demo](./src/images.demo.png)
+![demo](./src/images/demo.png)
 
 
 ## 优势
