@@ -1,46 +1,46 @@
 // 100px以下间隔4px
 @for $d from 0 to 26 {
-  .m-#{$d} {
+  .m-#{$d * 4} {
     margin: #{$d * 4}px;
   }
 
-  .p-#{$d} {
+  .p-#{$d * 4} {
     padding: #{$d * 4}px;
   }
 
-  .mt-#{$d} {
+  .mt-#{$d * 4} {
     margin-top: #{$d * 4}px;
   }
 
-  .pt-#{$d} {
+  .pt-#{$d * 4} {
     padding-top: #{$d * 4}px;
   }
 
-  .mr-#{$d} {
+  .mr-#{$d * 4} {
     margin-right: #{$d * 4}px;
   }
 
-  .pr-#{$d} {
+  .pr-#{$d * 4} {
     padding-right: #{$d * 4}px;
   }
 
-  .mb-#{$d} {
+  .mb-#{$d * 4} {
     margin-bottom: #{$d * 4}px;
   }
 
-  .pb-#{$d} {
+  .pb-#{$d * 4} {
     padding-bottom: #{$d * 4}px;
   }
 
-  .ml-#{$d} {
+  .ml-#{$d * 4} {
     margin-left: #{$d * 4}px;
   }
 
-  .pl-#{$d} {
+  .pl-#{$d * 4} {
     padding-left: #{$d * 4}px;
   }
 
-  .mx-#{$d} {
+  .mx-#{$d * 4} {
     margin-left: #{$d * 4}px;
     margin-right: #{$d * 4}px;
   }
@@ -50,12 +50,12 @@
     padding-right: #{$d * 4}px;
   }
 
-  .my-#{$d} {
+  .my-#{$d * 4} {
     margin-top: #{$d * 4}px;
     margin-bottom: #{$d * 4}px;
   }
 
-  .py-#{$d} {
+  .py-#{$d * 4} {
     padding-top: #{$d * 4}px;
     padding-bottom: #{$d * 4}px;
   }
@@ -63,62 +63,62 @@
 
 // 100px以上间隔10px
 @for $d from 0 to 41 {
-  .m-#{$d} {
+  .m-#{100 + $d * 10} {
     margin: #{100 + $d * 10}px;
   }
 
-  .p-#{$d} {
+  .p-#{100 + $d * 10} {
     padding: #{100 + $d * 10}px;
   }
 
-  .mt-#{$d} {
+  .mt-#{100 + $d * 10} {
     margin-top: #{100 + $d * 10}px;
   }
 
-  .pt-#{$d} {
+  .pt-#{100 + $d * 10} {
     padding-top: #{100 + $d * 10}px;
   }
 
-  .mr-#{$d} {
+  .mr-#{100 + $d * 10} {
     margin-right: #{100 + $d * 10}px;
   }
 
-  .pr-#{$d} {
+  .pr-#{100 + $d * 10} {
     padding-right: #{100 + $d * 10}px;
   }
 
-  .mb-#{$d} {
+  .mb-#{100 + $d * 10} {
     margin-bottom: #{100 + $d * 10}px;
   }
 
-  .pb-#{$d} {
+  .pb-#{100 + $d * 10} {
     padding-bottom: #{100 + $d * 10}px;
   }
 
-  .ml-#{$d} {
+  .ml-#{100 + $d * 10} {
     margin-left: #{100 + $d * 10}px;
   }
 
-  .pl-#{$d} {
+  .pl-#{100 + $d * 10} {
     padding-left: #{100 + $d * 10}px;
   }
 
-  .mx-#{$d} {
+  .mx-#{100 + $d * 10} {
     margin-left: #{100 + $d * 10}px;
     margin-right: #{100 + $d * 10}px;
   }
 
-  .px-#{$d} {
+  .px-#{100 + $d * 10} {
     padding-left: #{100 + $d * 10}px;
     padding-right: #{100 + $d * 10}px;
   }
 
-  .my-#{$d} {
+  .my-#{100 + $d * 10} {
     margin-top: #{100 + $d * 10}px;
     margin-bottom: #{100 + $d * 10}px;
   }
 
-  .py-#{$d} {
+  .py-#{100 + $d * 10} {
     padding-top: #{100 + $d * 10}px;
     padding-bottom: #{100 + $d * 10}px;
   }

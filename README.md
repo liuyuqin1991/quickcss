@@ -15,9 +15,9 @@ import 'quickcss/lib/main.css';
 
 ### 1. 边距
 控制元素内边距（padding）与外边距（margin）的功能类，m,mt,mr,mb,ml,mx,my（p,pt,pr,pb,pl,px,py）七个标准维度，在这七个维度上均定义了0-100以
-<span style="color: #cf3b37">4px</span>
+<b> 4px </b>
 自增，以及100-500以
-<span style="color: #cf3b37">10px</span>
+<b> 10px </b>
 自增的固定边距，
 特殊边距除外。
 #### 格式
@@ -58,10 +58,10 @@ import 'quickcss/lib/main.css';
 | h-100  | height:100% |
 
 ### 3. 字体
-用来控制元素字体大小（font-size）和粗细（font-weight）的功能类，定义了12-40以
-<span style="color: #cf3b37">2px</span>
-自增的固定字体大小和500-1500以
-<span style="color: #cf3b37">100</span>
+用来控制元素字体大小（font-size）和粗细（font-weight）的功能类，定义了12-100以
+<b> 2px </b>
+自增的固定字体大小和400-1500以
+<b> 100 </b>
 自增的固定字体粗细，特殊大小与粗细除外。
 
 #### 格式
@@ -118,7 +118,7 @@ import 'quickcss/lib/main.css';
 
 <span style="color: #d9615f">
 注：这里x为portal-ui色系值，通过在chrome中使用figma color for qingcloud portal插件，能够在figma网页版设计稿中显示颜色色值对应的portal-ui定义的颜色变量（只看显示的第一个变量），然后根据所对应的色系和色值来定x，例如，#324558对应的$neutral-15，色系为n（neutral），色值为15，那么x=n15
-</span>
+</b>
 
 如下示例：
 
@@ -133,7 +133,10 @@ import 'quickcss/lib/main.css';
 
 ### 6. 边框
 用于控制元素边框半径（border-radius）和边框厚度（border-width）的功能类，定义了1-10以
-<span style="color: #cf3b37">1px</span>自增的边框半径和定义了1-10以<span style="color: #cf3b37">1px</span>自增的边框厚度。定义了边框半径为半圆的1个特殊边框半径和3个子portal常用特殊的边框样式。边框颜色见颜色类。
+<b> 1px </b>
+自增的边框半径和定义了1-10以
+<b> 1px </b>
+自增的边框厚度。定义了边框半径为半圆的1个特殊边框半径和3个子portal常用特殊的边框样式。边框颜色见颜色类。
 
 #### 格式
 * br-x： 边框半径
@@ -164,4 +167,10 @@ import 'quickcss/lib/main.css';
 |  ----  | ----  |
 | cur-p  |  cursor: pointer; |
 | cur-na  |  cursor: not-allowed; |
+
+## 未来
+
+1. 自定义主题色配置方案
+2. 自适应方案
+3. 伪类等特殊类方案
 

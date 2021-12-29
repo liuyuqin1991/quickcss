@@ -1,14 +1,11 @@
-$font-size: 12,14,16,18,20,22,24,28,32,36,40;
-$font-weight: 400,500,600,700,800,900,1000,1100,1200,1300,1400,1500;
-
-@each $d in $font-size {
-  .fs-#{$d} {
-    font-size: #{$d}px;
+@for $d from 0 to 45 {
+  .fs-#{12 + $d * 2} {
+    font-size: #{12 + $d * 2}px;
   }
 }
 
-@each $d in $font-weight {
-  .fw-#{$d} {
-    font-weight: #{$d};
+@for $d from 0 to 12 {
+  .fw-#{400 + $d * 100} {
+    font-weight: #{400 + $d * 100};
   }
 }
