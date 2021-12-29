@@ -1,5 +1,5 @@
 # quickcss
-quickcss是一个能提高开发效率的轻量级原子化CSS库，能够在开发中快速使用css中使用最为频繁的部分属性，解决了为一些简单样式的dom命名class想破头，写传统css繁而多的痛点。而与同为原子化css库的TailwindCSS相比，不需要记忆过多的另一套CSS语法糖，也没有抛弃scss等非常好用的预编译css扩展语言在伪类，选择器，模块化，变量等方面编写CSS的优势，quickcss本身也是用scss编写后编译成的css
+quickcss是一个能提高开发效率的轻量级原子化CSS库，在开发中能够快速使用css最为频繁的部分属性，解决了为一些简单样式的dom命名class想破头，写传统css又复杂还多的痛点。且与同为原子化css库的TailwindCSS相比，不需要记忆过多的另一套CSS语法糖，也没有抛弃scss等非常好用的预编译css扩展语言在伪类，选择器，模块化，变量等方面编写CSS的优势，quickcss本身也是用scss编写后编译成的css。
 
 ![demo](./src/images/demo.png)
 
@@ -118,7 +118,7 @@ import 'quickcss/lib/main.css';
 | f-c -sb --c  | flex-direction: row; justify-content: space-between; align-items: center;
 
 ### 5. 颜色
-用于控制元素的文字颜色（color），背景颜色（background-color）和边框颜色（border-color）的功能类。详细的颜色色系，色值及颜色变量可查看[颜色库](./color.md)，特殊颜色除外。
+用于控制元素的文字颜色（color），背景颜色（background-color）和边框颜色（border-color）的功能类。详细的颜色色系，色值及颜色变量可查看[色系颜色板](./color.md)，特殊颜色除外。
 
 #### 格式
 * c-x： 文本颜色
@@ -168,17 +168,22 @@ import 'quickcss/lib/main.css';
 | 特殊边框（primary） |   |
 | b-p |  border: 1px solid $primary; |
 
-### 7. 其他
-用于控制其他方面的功能类，持续的更新中，也会直接全部在示例中介绍
+### 7. 交互
+用于控制交互方面的功能类，持续的更新中，也会直接全部在示例中介绍
 
 |   Class  | Properties  |
 |  ----  | ----  |
 | cur-p  |  cursor: pointer; |
+| cur-w  |  cursor: wait; |
+| cur-t  |  cursor: text; |
+| cur-m  |  cursor: move; |
+| cur-h  |  cursor: help; |
 | cur-na  |  cursor: not-allowed; |
 
-## 未来
+## 未来可能的计划
 
-1. 自定义主题色配置方案
-2. 自适应方案
-3. 伪类等特殊类方案
+1. 评估并吸收更多的可简化的css类
+2. 自定义主题色配置方案
+3. 自适应方案
+4. 伪类等特殊类方案
 
