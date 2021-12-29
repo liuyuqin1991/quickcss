@@ -45,7 +45,7 @@
     margin-right: #{$d * 4}px;
   }
 
-  .px-#{$d} {
+  .px-#{$d * 4} {
     padding-left: #{$d * 4}px;
     padding-right: #{$d * 4}px;
   }
