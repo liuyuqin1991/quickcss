@@ -1,5 +1,14 @@
 # quickcss
-一个能提高开发效率的轻量级原子化CSS库
+quickcss是一个能提高开发效率的轻量级原子化CSS库，能够在开发中快速使用css中使用最为频繁的部分属性，解决了为一些简单样式的dom命名class想破头，写传统css繁而多的痛点。而与同为原子化css库的TailwindCSS相比，不需要记忆过多的另一套CSS语法糖，也没有抛弃scss等非常好用的预编译css扩展语言在伪类，选择器，模块化，变量等方面编写CSS的优势，quickcss本身也是用scss编写后编译成的css
+
+![demo](./src/images.demo.png)
+
+
+## 优势
+
+* css-in-js，使用非常简单，且易懂
+* 涵盖频繁使用的css模块，能够处理大部分样式
+* 可与scss等css预编译语言同时使用，可扩展，可定制
 
 ## 引入与使用
 
@@ -109,7 +118,7 @@ import 'quickcss/lib/main.css';
 | f-c -sb --c  | flex-direction: row; justify-content: space-between; align-items: center;
 
 ### 5. 颜色
-用于控制元素的文字颜色（color），背景颜色（background-color）和边框颜色（border-color）的功能类。详细的颜色色系，色值及颜色变量可查看[颜色库](./color.md)。
+用于控制元素的文字颜色（color），背景颜色（background-color）和边框颜色（border-color）的功能类。详细的颜色色系，色值及颜色变量可查看[颜色库](./color.md)，特殊颜色除外。
 
 #### 格式
 * c-x： 文本颜色
