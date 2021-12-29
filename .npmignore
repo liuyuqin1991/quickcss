@@ -3,3 +3,4 @@ dist
 .vscode
 src
 webpack.config.js
+package-lock.json

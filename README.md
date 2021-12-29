@@ -14,10 +14,10 @@ quickcss是一个能提高开发效率的轻量级原子化CSS库，在开发中
 
 ``` 
 // 引入
-npm i quickcss
+npm i @liuyuqin1991/quickcss
 
 // 全局使用
-import 'quickcss/lib/main.css';
+import '@liuyuqin1991/quickcss/lib/main.css';
 ```
 
 ## 配置
