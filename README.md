@@ -64,7 +64,7 @@ import '@liuyuqin1991/quickcss/lib/main.css';
 | w-246  | width:246px |
 | h-480  | height:480px |
 | w--14  | width:14% |
-| h-100  | height:100% |
+| h--100  | height:100% |
 
 ### 3. 字体
 用来控制元素字体大小（font-size）和粗细（font-weight）的功能类，定义了12-100以
