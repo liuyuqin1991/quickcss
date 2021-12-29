@@ -1,0 +1,20 @@
+@for $i from 0 to 501 {
+  .w-#{$i} {
+    width: #{$i}px;
+  }
+
+  .h-#{$i} {
+    height: #{$i}px;
+  }
+}
+
+@for $i from 0 to 101 {
+  .w--#{$i} {
+    width: #{$i * 1%};
+  }
+
+  .h--#{$i} {
+    height: #{$i * 1%};
+  }
+}
+

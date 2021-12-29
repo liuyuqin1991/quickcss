@@ -1,0 +1,25 @@
+@for $i from 1 to 11 {
+  .br-#{$i} {
+    border-radius: #{$i}px;
+  }
+
+  .bw-#{$i} {
+    border-width: #{$i}px;
+  }
+}
+
+.br--50 {
+  border-radius: 50%;
+}
+
+.b-n {
+  border: 1px solid $border-color;
+}
+
+.b-p {
+  border: 1px solid $primary;
+}
+
+.b-ln {
+  border: 1px solid $light-border-color;
+}

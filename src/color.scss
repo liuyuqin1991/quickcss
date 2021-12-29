@@ -1,0 +1,330 @@
+@use "sass:map";
+@import 'variables.scss';
+$color-number: 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20;
+
+$n-map: (
+    0: $white,
+    1: $light-background,
+    2: $body-background,
+    3: $border-color,
+    4: $neutral-4,
+    5: $icon-dark-fill,
+    6: $neutral-6,
+    7: $neutral-7,
+    8: $help2,
+    9: $neutral-9,
+    10: $neutral-10,
+    11: $neutral-11,
+    12: $neutral-12,
+    13: $help1,
+    14: $neutral-14,
+    15: $title3,
+    16: $title2,
+    17: $neutral-17,
+    18: $neutral-18,
+    19: $title1,
+    20: $black-background,
+);
+
+$g-map: (
+    0: $primary-background,
+    1: $green-1,
+    2: $green-2,
+    3: $green-3,
+    4: $green-4,
+    5: $green-5,
+    6: $green-6,
+    7: $green-7,
+    8: $green-8,
+    9: $green-9,
+    10: $green-10,
+    11: $primary,
+    12: $primary-hover,
+    13: $primary-active,
+    14: $green-14,
+    15: $green-15,
+    16: $green-16,
+    17: $green-17,
+    18: $green-18,
+    19: $green-19,
+    20: $green-20,
+);
+
+$r-map: (
+    0: $danger-background,
+    1: $red-1,
+    2: $red-2,
+    3: $red-3,
+    4: $red-4,
+    5: $red-5,
+    6: $red-6,
+    7: $red-7,
+    8: $red-8,
+    9: $red-9,
+    10: $danger,
+    11: $danger-hover,
+    12: $red-12,
+    13: $red-13,
+    14: $danger-active,
+    15: $red-15,
+    16: $red-16,
+    17: $red-17,
+    18: $red-18,
+    19: $red-19,
+    20: $red-20,
+);
+
+$y-map: (
+    0: $warning-background,
+    1: $yellow-1,
+    2: $yellow-2,
+    3: $yellow-3,
+    4: $yellow-4,
+    5: $yellow-5,
+    6: $yellow-6,
+    7: $yellow-7,
+    8: $yellow-8,
+    9: $yellow-9,
+    10: $warning,
+    11: $warning-hover,
+    12: $yellow-12,
+    13: $yellow-13,
+    14: $warning-active,
+    15: $yellow-15,
+    16: $yellow-16,
+    17: $yellow-17,
+    18: $yellow-18,
+    19: $yellow-19,
+    20: $yellow-20,
+);
+
+$b-map: (
+    0: $info-background,
+    1: $blue-1,
+    2: $blue-2,
+    3: $blue-3,
+    4: $blue-4,
+    5: $blue-5,
+    6: $blue-6,
+    7: $blue-7,
+    8: $blue-8,
+    9: $blue-9,
+    10: $blue-10,
+    11: $info,
+    12: $info-hover,
+    13: $info-active,
+    14: $blue-14,
+    15: $blue-15,
+    16: $blue-16,
+    17: $blue-17,
+    18: $blue-18,
+    19: $blue-19,
+    20: $blue-20,
+);
+
+$dg-map: (
+    0: $dark-green-0,
+    1: $dark-green-1,
+    2: $dark-green-2,
+    3: $dark-green-3,
+    4: $dark-green-4,
+    5: $dark-green-5,
+    6: $dark-green-6,
+    7: $dark-green-7,
+    8: $dark-green-8,
+    9: $dark-green-9,
+    10: $dark-green-10,
+    11: $dark-green-11,
+    12: $dark-green-12,
+    13: $dark-green-13,
+    14: $dark-green-14,
+    15: $dark-green-15,
+    16: $dark-green-16,
+    17: $dark-green-17,
+    18: $dark-green-18,
+    19: $dark-green-19,
+    20: $dark-green-20,
+);
+
+$p-map: (
+    0: $purple-0,
+    1: $purple-1,
+    2: $purple-2,
+    3: $purple-3,
+    4: $purple-4,
+    5: $purple-5,
+    6: $purple-6,
+    7: $purple-7,
+    8: $purple-8,
+    9: $purple-9,
+    10: $purple-10,
+    11: $purple-11,
+    12: $purple-12,
+    13: $purple-13,
+    14: $purple-14,
+    15: $purple-15,
+    16: $purple-16,
+    17: $purple-17,
+    18: $purple-18,
+    19: $purple-19,
+    20: $purple-20,
+);
+
+$t-map: (
+    0: $turquoise-0,
+    1: $turquoise-1,
+    2: $turquoise-2,
+    3: $turquoise-3,
+    4: $turquoise-4,
+    5: $turquoise-5,
+    6: $turquoise-6,
+    7: $turquoise-7,
+    8: $turquoise-8,
+    9: $turquoise-9,
+    10: $turquoise-10,
+    11: $turquoise-11,
+    12: $turquoise-12,
+    13: $turquoise-13,
+    14: $turquoise-14,
+    15: $turquoise-15,
+    16: $turquoise-16,
+    17: $turquoise-17,
+    18: $turquoise-18,
+    19: $turquoise-19,
+    20: $turquoise-20,
+);
+
+$o-map: (
+    0: $orange-0,
+    1: $orange-1,
+    2: $orange-2,
+    3: $orange-3,
+    4: $orange-4,
+    5: $orange-5,
+    6: $orange-6,
+    7: $orange-7,
+    8: $orange-8,
+    9: $orange-9,
+    10: $orange-10,
+    11: $orange-11,
+    12: $orange-12,
+    13: $orange-13,
+    14: $orange-14,
+    15: $orange-15,
+    16: $orange-16,
+    17: $orange-17,
+    18: $orange-18,
+    19: $orange-19,
+    20: $orange-20,
+);
+
+// c-n0: { color: $neutral-0 }; bc-n0: { background-color: $neutral-0 };
+@each $d in $color-number {
+  .c-n#{$d} {
+    color: map.get($n-map, $d);
+  }
+
+  .c-g#{$d} {
+    color: map.get($g-map, $d);
+  }
+
+  .c-r#{$d} {
+    color: map.get($r-map, $d);
+  }
+
+  .c-y#{$d} {
+    color: map.get($y-map, $d);
+  }
+
+  .c-b#{$d} {
+    color: map.get($b-map, $d);
+  }
+
+  .c-dg#{$d} {
+    color: map.get($dg-map, $d);
+  }
+
+  .c-p#{$d} {
+    color: map.get($p-map, $d);
+  }
+
+  .c-t#{$d} {
+    color: map.get($t-map, $d);
+  }
+
+  .c-o#{$d} {
+    color: map.get($o-map, $d);
+  }
+
+  .bc-n#{$d} {
+    border-color: map.get($n-map, $d);
+  }
+
+  .bc-g#{$d} {
+    border-color: map.get($g-map, $d);
+  }
+
+  .bc-r#{$d} {
+    border-color: map.get($r-map, $d);
+  }
+
+  .bc-y#{$d} {
+    border-color: map.get($y-map, $d);
+  }
+
+  .bc-b#{$d} {
+    border-color: map.get($b-map, $d);
+  }
+
+  .bc-dg#{$d} {
+    border-color: map.get($dg-map, $d);
+  }
+
+  .bc-p#{$d} {
+    border-color: map.get($p-map, $d);
+  }
+
+  .bc-t#{$d} {
+    border-color: map.get($t-map, $d);
+  }
+
+  .bc-o#{$d} {
+    border-color: map.get($o-map, $d);
+  }
+
+  .bgc-n#{$d} {
+    background-color: map.get($n-map, $d);
+  }
+
+  .bgc-g#{$d} {
+    background-color: map.get($g-map, $d);
+  }
+
+  .bgc-r#{$d} {
+    background-color: map.get($r-map, $d);
+  }
+
+  .bgc-y#{$d} {
+    background-color: map.get($y-map, $d);
+  }
+
+  .bgc-b#{$d} {
+    background-color: map.get($b-map, $d);
+  }
+
+  .bgc-dg#{$d} {
+    background-color: map.get($dg-map, $d);
+  }
+
+  .bgc-p#{$d} {
+    background-color: map.get($p-map, $d);
+  }
+
+  .bgc-t#{$d} {
+    background-color: map.get($t-map, $d);
+  }
+
+  .bgc-o#{$d} {
+    background-color: map.get($o-map, $d);
+  }
+}

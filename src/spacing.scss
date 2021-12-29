@@ -1,0 +1,125 @@
+// 100px以下间隔4px
+@for $d from 0 to 26 {
+  .m-#{$d} {
+    margin: #{$d * 4}px;
+  }
+
+  .p-#{$d} {
+    padding: #{$d * 4}px;
+  }
+
+  .mt-#{$d} {
+    margin-top: #{$d * 4}px;
+  }
+
+  .pt-#{$d} {
+    padding-top: #{$d * 4}px;
+  }
+
+  .mr-#{$d} {
+    margin-right: #{$d * 4}px;
+  }
+
+  .pr-#{$d} {
+    padding-right: #{$d * 4}px;
+  }
+
+  .mb-#{$d} {
+    margin-bottom: #{$d * 4}px;
+  }
+
+  .pb-#{$d} {
+    padding-bottom: #{$d * 4}px;
+  }
+
+  .ml-#{$d} {
+    margin-left: #{$d * 4}px;
+  }
+
+  .pl-#{$d} {
+    padding-left: #{$d * 4}px;
+  }
+
+  .mx-#{$d} {
+    margin-left: #{$d * 4}px;
+    margin-right: #{$d * 4}px;
+  }
+
+  .px-#{$d} {
+    padding-left: #{$d * 4}px;
+    padding-right: #{$d * 4}px;
+  }
+
+  .my-#{$d} {
+    margin-top: #{$d * 4}px;
+    margin-bottom: #{$d * 4}px;
+  }
+
+  .py-#{$d} {
+    padding-top: #{$d * 4}px;
+    padding-bottom: #{$d * 4}px;
+  }
+}
+
+// 100px以上间隔10px
+@for $d from 0 to 41 {
+  .m-#{$d} {
+    margin: #{100 + $d * 10}px;
+  }
+
+  .p-#{$d} {
+    padding: #{100 + $d * 10}px;
+  }
+
+  .mt-#{$d} {
+    margin-top: #{100 + $d * 10}px;
+  }
+
+  .pt-#{$d} {
+    padding-top: #{100 + $d * 10}px;
+  }
+
+  .mr-#{$d} {
+    margin-right: #{100 + $d * 10}px;
+  }
+
+  .pr-#{$d} {
+    padding-right: #{100 + $d * 10}px;
+  }
+
+  .mb-#{$d} {
+    margin-bottom: #{100 + $d * 10}px;
+  }
+
+  .pb-#{$d} {
+    padding-bottom: #{100 + $d * 10}px;
+  }
+
+  .ml-#{$d} {
+    margin-left: #{100 + $d * 10}px;
+  }
+
+  .pl-#{$d} {
+    padding-left: #{100 + $d * 10}px;
+  }
+
+  .mx-#{$d} {
+    margin-left: #{100 + $d * 10}px;
+    margin-right: #{100 + $d * 10}px;
+  }
+
+  .px-#{$d} {
+    padding-left: #{100 + $d * 10}px;
+    padding-right: #{100 + $d * 10}px;
+  }
+
+  .my-#{$d} {
+    margin-top: #{100 + $d * 10}px;
+    margin-bottom: #{100 + $d * 10}px;
+  }
+
+  .py-#{$d} {
+    padding-top: #{100 + $d * 10}px;
+    padding-bottom: #{100 + $d * 10}px;
+  }
+}
