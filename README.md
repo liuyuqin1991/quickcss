@@ -126,7 +126,7 @@ import 'quickcss/lib/main.css';
 * bc-x: 边框颜色
 
 
-注：这里x为颜色库中的色系值.为方便使用颜色css，这里可以通过在chrome中使用[chrome-figma-color插件](./chrome-figma-quick-css-color.zip)，能够在figma网页版设计稿中显示颜色色值对应的颜色变量（只看显示的第一个变量），然后会根据所对应的色系和色值来定x，例如，#324558对应的$neutral-15，色系为n（neutral），色值为15，那么x=n15，class即可以写成c-n15。
+注：这里x为颜色库中的色系值.为方便使用颜色css，这里可以通过在chrome中使用[chrome-figma-color插件](./chrome-figma-quick-css-color.zip)或[从仓库下载](https://github.com/liuyuqin1991/chrome-extensions-figma-color)，能够在figma网页版设计稿中显示颜色色值对应的颜色变量（只看显示的第一个变量），然后会根据所对应的色系和色值来定x，例如，#324558对应的$neutral-15，色系为n（neutral），色值为15，那么x=n15，class即可以写成c-n15。
 
 如下示例：
 
