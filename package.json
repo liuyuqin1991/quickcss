@@ -1,6 +1,6 @@
 {
   "name": "@liuyuqin1991/quickcss",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "一个能提高开发效率的轻量级原子化CSS库",
   "main": "webpack.config.js",
   "devDependencies": {
