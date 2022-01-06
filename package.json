@@ -1,7 +1,7 @@
 {
   "name": "@liuyuqin1991/quickcss",
-  "version": "1.0.3",
-  "description": "一个能提高开发效率的轻量级原子化CSS库",
+  "version": "1.0.4",
+  "description": "一个能提高开发效率的针对web开发的轻量级acss库",
   "main": "webpack.config.js",
   "devDependencies": {
     "node-sass": "^7.0.1",
