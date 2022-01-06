@@ -22,6 +22,8 @@ import '@liuyuqin1991/quickcss/lib/main.css';
 
 ## 配置
 
+> quickcss包含flex布局，边距，宽高，字体，颜色，边框，交互，溢出，层级，阴影，隐藏方式11大项
+
 ### 1. 布局
 只用于控制flex布局类，仅包含对父容器的flex-direction，flex-wrap，justify-start，align-item这4个常用class以及对子容器flex:1这1个常用class，特殊flex布局除外。
 
