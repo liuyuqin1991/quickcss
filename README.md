@@ -27,8 +27,8 @@ import '@liuyuqin1991/quickcss/lib/main.css';
 
 #### 格式
 * f-?： flex-direction与flex-wrap相关
-* -?: justify-content相关
-* --?: align-items相关
+* -?: 主轴对齐方式，justify-content相关
+* --?: 从轴对齐方式，align-items相关
 
 如下示例：
 |   Class  | Properties  |
@@ -62,7 +62,7 @@ import '@liuyuqin1991/quickcss/lib/main.css';
 自增的固定边距，
 特殊边距除外。
 #### 格式
-* 维度-?
+* 维度-?：边距
 
 如下示例：
 |   Class  | Properties  |
@@ -205,7 +205,7 @@ import '@liuyuqin1991/quickcss/lib/main.css';
 自增的z-index层级。
 
 #### 格式
-* z-?
+* z-?： 层级
 
 如下示例：
 
@@ -216,7 +216,24 @@ import '@liuyuqin1991/quickcss/lib/main.css';
 | z-57  |  z-index: 57; |
 | z-100  |  z-index: 100; |
 
-### 10. 隐藏
+### 10. 阴影
+用于控制元素的盒状阴影（box-shadow）的功能类，定义了常见的5种阴影类型
+
+#### 格式
+* shadow-?： 阴影
+
+如下示例：
+
+|   Class  | Properties  |
+|  ----  | ----  |
+| shadow-0  |  box-shadow: none; |
+| shadow-1  |  box-shadow: 0px 1px 3px rgba(26, 30, 34, 0.08); |
+| shadow-2  |  box-shadow: 0px 4px 6px rgba(3, 5, 7, 0.08); |
+| shadow-3  |  box-shadow: 0px 5px 15px rgba(3, 5, 7, 0.08); |
+| shadow-4  |  box-shadow: 0px 10px 24px rgba(3, 5, 7, 0.08); |
+| shadow-5  |  box-shadow: 0px 15px 30px rgba(3, 5, 7, 0.08); |
+
+### 11. 隐藏
 用于控制元素如何隐藏的功能类，定义了元素移除(display: none)与元素不可见(visibility: hidden)两种隐藏方式.
 
 #### 格式
