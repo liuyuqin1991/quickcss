@@ -249,6 +249,24 @@ import '@liuyuqin1991/quickcss/lib/main.css';
 | none  |  display: none; |
 | hidden  |  visibility: hidden; |
 
+### 12. 伪类
+用于控制元素伪类的功能类，目前只定义了hover的常用效果
+
+#### 格式
+* h:c-? hover color
+* h:bc-? hover border-color
+* h:bgc-? hover background-color
+* h:fs-? hover font-size
+* h:fw-? hover font-weight
+
+如下示例：
+
+|   Class  | Properties  |
+|  ----  | ----  |
+| h:c-n8  |  &:hover{ color: $help2 } |
+| h:bc-n3  |  &:hover { border-color: $border-color } |
+| h:fs-14  |  &:hover { font-size: 14px } |
+
 
 ## 未来可能的计划
 
