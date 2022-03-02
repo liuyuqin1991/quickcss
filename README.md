@@ -22,7 +22,7 @@ import '@liuyuqin1991/quickcss/lib/main.css';
 
 ## 配置
 
-> quickcss包含flex布局，边距，宽高，字体，颜色，边框，交互，溢出，层级，阴影，隐藏方式，伪类这12个大项
+> quickcss包含flex布局，边距，宽高，字体，颜色，边框，交互，溢出，层级，阴影，隐藏方式，伪类这12个大项。
 
 ### 1. 布局
 只用于控制flex布局类，仅包含对父容器的flex-direction，flex-wrap，justify-start，align-item这4个常用class以及对子容器flex:1这1个常用class，特殊flex布局除外。
@@ -171,7 +171,7 @@ import '@liuyuqin1991/quickcss/lib/main.css';
 | b-p |  border: 1px solid $primary; |
 
 ### 7. 交互
-用于控制交互方面的功能类，持续的更新中，也会直接全部在示例中介绍
+用于控制交互方面的功能类，持续的更新中，也会直接全部在示例中介绍。
 
 |   Class  | Properties  |
 |  ----  | ----  |
@@ -219,7 +219,7 @@ import '@liuyuqin1991/quickcss/lib/main.css';
 | z-100  |  z-index: 100; |
 
 ### 10. 阴影
-用于控制元素的盒状阴影（box-shadow）的功能类，定义了常见的5种阴影类型
+用于控制元素的盒状阴影（box-shadow）的功能类，定义了常见的5种阴影类型。
 
 #### 格式
 * shadow-?： 阴影
@@ -236,7 +236,7 @@ import '@liuyuqin1991/quickcss/lib/main.css';
 | shadow-5  |  box-shadow: 0px 15px 30px rgba(3, 5, 7, 0.08); |
 
 ### 11. 隐藏
-用于控制元素如何隐藏的功能类，定义了元素移除(display: none)与元素不可见(visibility: hidden)两种隐藏方式.
+用于控制元素如何隐藏的功能类，定义了元素移除(display: none)与元素不可见(visibility: hidden)两种隐藏方式。
 
 #### 格式
 * none: 元素移除
@@ -250,7 +250,7 @@ import '@liuyuqin1991/quickcss/lib/main.css';
 | hidden  |  visibility: hidden; |
 
 ### 12. 伪类
-用于控制元素伪类的功能类，目前只定义了hover的常用效果
+用于控制元素伪类的功能类，目前只定义了下列五种常见的hover的效果。
 
 #### 格式
 * h:c-? hover color
