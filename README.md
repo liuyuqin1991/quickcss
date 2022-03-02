@@ -120,7 +120,7 @@ import '@liuyuqin1991/quickcss/lib/main.css';
 | fw-1200  | font-weight:1200 |
 
 ### 5. 颜色
-用于控制元素的文字颜色（color），背景颜色（background-color）和边框颜色（border-color）的功能类。详细的颜色色系，色值及颜色变量可查看[色系颜色板](./color.md)，特殊颜色除外。
+用于控制元素的文字颜色（color），背景颜色（background-color）和边框颜色（border-color）的功能类。详细的颜色色系，色值及颜色变量可查看项目中的[色系颜色板](./color.md)，特殊颜色除外。
 
 #### 格式
 * c-?： 文本颜色
@@ -128,7 +128,7 @@ import '@liuyuqin1991/quickcss/lib/main.css';
 * bc-?: 边框颜色
 
 
-注：这里x为颜色库中的色系值.为方便使用颜色css，这里可以通过在chrome中使用[chrome-figma-color插件](https://github.com/liuyuqin1991/chrome-extensions-figma-color)，能够在figma网页版设计稿中显示颜色色值对应的颜色变量（只看显示的第一个变量），然后会根据所对应的色系和色值来定x，例如，#324558对应的$neutral-15，色系为n（neutral），色值为15，那么x=n15，class即可以写成c-n15。
+注：这里？为项目颜色库中的色系值。为方便使用颜色css，这里可以通过在chrome中使用[chrome-figma-color插件](https://github.com/liuyuqin1991/chrome-extensions-figma-color)，能够在figma网页版设计稿中显示颜色色值对应的颜色变量（只看显示的第一个变量），然后会根据所对应的色系和色值来定？，例如，#324558对应的$neutral-15，色系为n（neutral），色值为15，那么x=n15，class即可以写成c-n15。如需变更颜色库，可以在fork项目修改variables.scss中的各颜色变量与业务变量后重新build，引入编译好的css到项目中即可。
 
 如下示例：
 
