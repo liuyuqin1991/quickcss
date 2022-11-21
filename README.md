@@ -2,7 +2,7 @@
 
 quickcss 是一个专门针对 web 业务向开发的轻量级 acss 库，提供了在使用最为频繁的 css 属性时的最方便类名记法。
 
-![demo](./demo/demo.png)
+![demo](https://raw.githubusercontent.com/liuyuqin1991/quickcss/main/demo/demo.png)
 
 ## 优势
 
