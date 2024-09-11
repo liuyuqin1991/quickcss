@@ -291,6 +291,22 @@ import '@liuyuqin1991/quickcss/lib/main.css';
 | h:bc-n3 | &:hover { border-color: $border-color } |
 | h:fs-14 | &:hover { font-size: 14px }             |
 
+### 13. 位置
+
+用于控制元素位置（position）的功能类，目前定义了下列3种常见的position效果
+
+#### 格式
+
+- pos-?： 位置
+
+如下示例：
+
+| Class    | Properties                                      |
+| -------- | ----------------------------------------------- |
+| pos-re | position: relative;  |
+| pos-ab | position: absolute;  |
+| pos-fi | position: fixed;  |
+
 ## 未来可能的计划
 
 1. 评估并吸收更多的可简化的 css 类
