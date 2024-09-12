@@ -303,9 +303,10 @@ import '@liuyuqin1991/quickcss/lib/main.css';
 
 | Class    | Properties                                      |
 | -------- | ----------------------------------------------- |
-| pos-re | position: relative;  |
-| pos-ab | position: absolute;  |
-| pos-fi | position: fixed;  |
+| pos-r | position: relative;  |
+| pos-a | position: absolute;  |
+| pos-f | position: fixed;  |
+| pos-s | position: sticky;  |
 
 ## 未来可能的计划
 
