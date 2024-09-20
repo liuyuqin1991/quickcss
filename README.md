@@ -33,6 +33,7 @@ import '@liuyuqin1991/quickcss/lib/main.css';
 - f-?： flex-direction 与 flex-wrap 相关
 - -?: 主轴对齐方式，justify-content 相关
 - --?: 从轴对齐方式，align-items 相关
+- ---?: 多轴对齐方式，align-content 相关
 
 如下示例：
 | Class | Properties |
@@ -54,6 +55,11 @@ import '@liuyuqin1991/quickcss/lib/main.css';
 | --c | align-items: center; |
 | --b | align-items: baseline; |
 | --st | align-items: stretch; |
+| ---s | align-content: flex-start; |
+| ---e | align-content: flex-end; |
+| ---c | align-content: center; |
+| ---sb | align-content: space-between; |
+| ---sa | align-content: space-around; |
 | f-1 | flex:1; |
 | f-r -c --c | flex-direction: row; justify-content: center; align-items: center;|
 | f-c -sb --c | flex-direction: row; justify-content: space-between; align-items: center;
