@@ -1,10 +1,10 @@
-# Color panel
+# 颜色板
 
-[中文](./color_CN.md)
+[English](./color.md)
 
-## Neutral
+## 中性色 Neutral
 
-|   ID  | Original variable  | HEX  | Business variable  |
+|   ID  | 原始变量  | HEX  | 业务变量  |
 |  ----  | ----  | ----  | ----  |
 |  N20  | $neutral-20  | ![#020508](https://via.placeholder.com/15/020508/000000?text=+) #020508  | $black-background |
 |  N19  | $neutral-19  | ![#09121a](https://via.placeholder.com/15/09121a/000000?text=+) #09121a  | $title1 |
@@ -28,9 +28,10 @@
 |  N1  | $neutral-1  | ![#f5f7fa](https://via.placeholder.com/15/f5f7fa/000000?text=+) #f5f7fa  | $black-background |
 |  N0  | $neutral-0  | ![#ffffff](https://via.placeholder.com/15/ffffff/000000?text=+) #ffffff  | $white |
 
-## Green
+## 绿色 Green
+> 默认主题色，成功色
 
-|   ID  | Original variable  | HEX  | Business variable  |
+|   ID  | 原始变量  | HEX  | 业务变量  |
 |  ----  | ----  | ----  | ----  |
 |  G20  | $green-20  | ![#031612](https://via.placeholder.com/15/031612/000000?text=+) #031612  |  |
 |  G19  | $green-19  | ![#05261d](https://via.placeholder.com/15/05261d/000000?text=+) #05261d  |  |
@@ -54,9 +55,10 @@
 |  G1  | $green-1  | ![#dff7f0](https://via.placeholder.com/15/dff7f0/000000?text=+) #dff7f0  |  |
 |  G0  | $green-0  | ![#f5fffd](https://via.placeholder.com/15/f5fffd/000000?text=+) #f5fffd  | $primary-background, $success-background |
 
-## Red
+## 红色 Red
+> 警示色
 
-|   ID  | Original variable  | HEX  | Business variable  |
+|   ID  | 原始变量  | HEX  | 业务变量  |
 |  ----  | ----  | ----  | ----  |
 |  R20  | $red-20  | ![#17080a](https://via.placeholder.com/15/17080a/000000?text=+) #17080a  |  |
 |  R19  | $red-19  | ![#2d0e13](https://via.placeholder.com/15/2d0e13/000000?text=+) #2d0e13  |  |
@@ -80,9 +82,10 @@
 |  R1  | $red-1  | ![#fce6eb](https://via.placeholder.com/15/fce6eb/000000?text=+) #fce6eb  |  |
 |  R0  | $red-0  | ![#fff9fa](https://via.placeholder.com/15/fff9fa/000000?text=+) #fff9fa  | $danger-background |
 
-## Yellow
+## 黄色 Yellow
+> 提醒色
 
-|   ID  | Original variable  | HEX  | Business variable  |
+|   ID  | 原始变量  | HEX  | 业务变量  |
 |  ----  | ----  | ----  | ----  |
 |  Y20  | $yellow-20  | ![#1a1807](https://via.placeholder.com/15/1a1807/000000?text=+) #1a1807  |  |
 |  Y19  | $yellow-19  | ![#312b0a](https://via.placeholder.com/15/312b0a/000000?text=+) #312b0a  |  |
@@ -106,9 +109,10 @@
 |  Y1  | $yellow-1  | ![#fff9d9](https://via.placeholder.com/15/fff9d9/000000?text=+) #fff9d9  |  |
 |  Y0  | $yellow-0  | ![#fffded](https://via.placeholder.com/15/fffded/000000?text=+) #fffded  | $warning-background |
 
-## Blue
+## 蓝色 Blue
+> 提示色
 
-|   ID  | Original variable  | HEX  | Business variable  |
+|   ID  | 原始变量  | HEX  | 业务变量  |
 |  ----  | ----  | ----  | ----  |
 |  B20  | $blue-20  | ![#04121d](https://via.placeholder.com/15/04121d/000000?text=+) #04121d  |  |
 |  B19  | $blue-19  | ![#092333](https://via.placeholder.com/15/092333/000000?text=+) #092333  |  |
@@ -131,12 +135,13 @@
 |  B2  | $blue-2  | ![#cde8fb](https://via.placeholder.com/15/cde8fb/000000?text=+) #cde8fb  |  |
 |  B1  | $blue-1  | ![#e2f2fd](https://via.placeholder.com/15/e2f2fd/000000?text=+) #e2f2fd  |  |
 |  B0  | $blue-0  | ![#f7fcff](https://via.placeholder.com/15/f7fcff/000000?text=+) #f7fcff  | $info-background |
-|  B99  | $blue-99  | ![#0366d6](https://via.placeholder.com/15/0366d6/000000?text=+) #0366d6  |    $link(<a> color) |
-|  B98  | $blue-98  | ![#035cc1](https://via.placeholder.com/15/035cc1/000000?text=+) #035cc1  |    $link-hover(<a> hover color) |
+|  B99  | $blue-99  | ![#0366d6](https://via.placeholder.com/15/0366d6/000000?text=+) #0366d6  |    $link（a标签自带颜色） |
+|  B98  | $blue-98  | ![#035cc1](https://via.placeholder.com/15/035cc1/000000?text=+) #035cc1  |    $link-hover（a标签hover自带颜色） |
 
-## Orange
+## 橘色 Orange
+> 辅助色板色
 
-|   ID  | Original variable  | HEX  | Business variable  |
+|   ID  | 原始变量  | HEX  | 业务变量  |
 |  ----  | ----  | ----  | ----  |
 |  O20  | $orange-20  | ![#1d0f04](https://via.placeholder.com/15/1d0f04/000000?text=+) #1d0f04  |  |
 |  O19  | $orange-19  | ![#331c06](https://via.placeholder.com/15/331c06/000000?text=+) #331c06  |  |
@@ -160,9 +165,10 @@
 |  O1  | $orange-1  | ![#fdf4e2](https://via.placeholder.com/15/fdf4e2/000000?text=+) #fdf4e2  |  |
 |  O0  | $orange-0  | ![#fffbf7](https://via.placeholder.com/15/fffbf7/000000?text=+) #fffbf7  |  |
 
-## Purple
+## 紫色 Purple
+> 辅助色板色
 
-|   ID  | Original variable  | HEX  | Business variable  |
+|   ID  | 原始变量  | HEX  | 业务变量  |
 |  ----  | ----  | ----  | ----  |
 |  P20  | $purple-20  | ![#11041d](https://via.placeholder.com/15/11041d/000000?text=+) #11041d  |  |
 |  P19  | $purple-19  | ![#1a042b](https://via.placeholder.com/15/1a042b/000000?text=+) #1a042b  |  |
