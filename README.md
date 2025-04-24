@@ -1,14 +1,16 @@
 # quickcss
 
+[English](./README_EN.md)
+
 quickcss 是一个专门针对 web 业务向开发的轻量级 acss 库，提供了在使用最为频繁的 css 属性时的最方便类名记法。
 
 ![demo](./demo/demo.png)
 
 ## 优势
 
-- <b>轻量</b>。只提供了最为频繁使用的 css 属性，复杂 css 属性可结合 scss 或 less 一起使用。
-- <b>方便</b>。不用再想愚蠢的类名，而仅仅是为了设置一个布局或者简单的单一样式。
-- <b>易懂</b>。css 样式都是根据原 css 写法进行缩写定义，符合大脑的记忆，且也对原有 css 样式记忆更加深刻。
+- <b>轻量</b> - 只提供了最为频繁使用的 css 属性，复杂 css 属性可结合 scss 或 less 一起使用。
+- <b>方便</b> - 不用再想愚蠢的类名，而仅仅是为了设置一个布局或者简单的单一样式。
+- <b>易懂</b> - css 样式都是根据原 css 写法进行缩写定义，符合大脑的记忆，且也对原有 css 样式记忆更加深刻。
 
 ## 引入与使用
 
@@ -153,7 +155,7 @@ import '@liuyuqin1991/quickcss/lib/main.css';
 | ------ | --------------------------- |
 | c-n8   | color: $help2               |
 | c-n15  | color: $title3              |
-| c-g11  | color: $primary             |
+| c-g5  | color: #87d7bc             |
 | c-g11  | color: $primary             |
 | bc-n3  | border-color: $border-color |
 | bgc-n0 | background-color: $white    |
